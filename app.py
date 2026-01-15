@@ -8,7 +8,7 @@ import os
 st.title("My YouTube Watch History Dashboard")
 
 # Load Data
-DATA_FILE = "youtube-watch-history-dashboard/data/watch-history.json"
+DATA_FILE = "watch-history.json"
 
 if not os.path.exists(DATA_FILE):
     st.error(f"Data file not found: {DATA_FILE}. Upload your watch-history.json from Google Takeout.")
